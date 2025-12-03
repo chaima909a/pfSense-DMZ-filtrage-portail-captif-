@@ -1,0 +1,10 @@
+# /etc/netplan/01-dmz.yaml
+network:
+  version: 2
+  ethernets:
+    ens33:
+      dhcp4: no
+      addresses: [172.16.0.100/24]
+      gateway4: 172.16.0.1
+      nameservers:
+        addresses: [8.8.8.8]
