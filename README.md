@@ -32,8 +32,9 @@ L’objectif principal est de **simuler une architecture d’entreprise** typiqu
             ▼          ▼
  ┌────────────────┐  ┌────────────────┐
  │  PC Client LAN │  │ Serveur Web DMZ│
- │192.168.1.100   │  │172.16.0.100   │
+ │192.168.1.100   │  │172.16.0.100    │
  └────────────────┘  └────────────────┘
+
 
  
 - **WAN** : accès Internet via réseau externe (192.168.204.0/24)  
